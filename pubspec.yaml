@@ -1,0 +1,63 @@
+name: inter_cyber_wettenberg
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
+
+flutter_launcher_icons:
+  android: false
+  ios: true
+  image_path: "assets/general/icon.png"
+  web:
+    generate: true
+    image_path: "assets/general/icon.png"
+  windows:
+    generate: true
+    image_path: "assets/general/icon.png"
+
+flutter_native_splash:
+  color: "#F5F5F0"
+  image: "assets/general/logo.png"
+  android_12:
+    color: "#F5F5F0"
+    image: "assets/general/splash-android.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/general/
+    - assets/onboarding/
+    - assets/nickname/
+    - assets/promotions/
+    - assets/prices/
+    - assets/management/
+    - assets/reservaation/
+    - assets/profile/
+    - assets/events/
+    - assets/about/
+    - assets/game/
+    - assets/achievements/
+    - assets/menu/
